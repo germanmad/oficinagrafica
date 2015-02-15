@@ -1,0 +1,9 @@
+<h1>{{ work.title }}</h1>
+<h2>{{ work.imageurl }}</h2>
+<h2>{{ work.thumburl }}</h2>
+<p>{{ work.description }}</p>
+<p>{{ work.pub_date }}</p>
+
+{% if work.featured %}
+    {{ 'FEATURED!!' }}
+{% endif %}
